@@ -1,58 +1,40 @@
-
-
-#header{
+html, body {
+    height: 100%;
+}
+html, body{
     background-image: url(https://img.freepik.com/free-photo/closeup-hand-getting-money-from-atm_53876-14527.jpg?w=996&t=st=1685630508~exp=1685631108~hmac=a4fcbe1d2f7d653cfa49c8047c6cad906ac1c8268cc8f262dde7f8ee19d38afa);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-div.layer {
-    background-color: rgb(0, 0, 0, 0.70);
-    background-position: center;
+#layer{
+    background-color: rgb(0,0,0,0.70);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    background-position: center;
+    height: 100%;
 }
 
-div.atur-batas-atas {
-    margin-top: 200px;
+.batas-melingkar{
+    border-radius: 10px;
 }
 
-mark {
-    border-radius: 15px;
-    background-color: rgb(107, 107, 107);
-}
-
-html, body {
-    background-color: rgb(63, 63, 63);
-}
-
-div.card {
-    border-radius: 20px;
-    height: 450px;
-    background-color: rgb(80, 80, 80);
+.whatsapp {
     color: white;
 }
-
-/* div.card .btn {
-    transform: translateY(100%);
-    display: inline-block
-} */
-
-div.card img {
-    border-top-left-radius: 20px;
+.whatsapp:hover {
+    color: rgb(0, 0, 36)
 }
-
-a.nav-link{
-    margin-left: 5px;
-    margin-right: 5px;
+.email {
     color: white;
-    font-weight: 700;
 }
-a.nav-link:hover{
-    background-color: grey;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: black;
+.email:hover {
+    color: rgb(0, 0, 36)
+}
+.lokasi {
+    color: white;
+}
+.lokasi:hover {
+    color: rgb(0, 0, 36)
 }
