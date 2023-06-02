@@ -26,13 +26,13 @@ html, body{
     color: white;
 }
 .whatsapp:hover {
-    color: grey
+    color: rgb(78, 78, 78);
 }
 .email {
     color: white;
 }
 .email:hover {
-    color: grey
+    color: rgb(78, 78, 78);
 }
 .lokasi {
     color: white;
