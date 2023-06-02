@@ -9,7 +9,7 @@ html, body{
 }
 
 #layer{
-    background-color: rgb(0,0,0,0.70);
+    background-color: rgb(0,0,0,0.80);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,6 +18,8 @@ html, body{
 
 .batas-melingkar{
     border-radius: 10px;
+    min-width: 350px;
+    max-width: 1000px;
 }
 
 .whatsapp {
@@ -47,6 +49,22 @@ html, body{
     margin: 5px;
 }
 .tombol a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 0, 36);
+    border-radius: 10px;
+}
+
+a.tombol {
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+a.tombol:hover{
     color: white;
     text-decoration: none;
     background-color: rgb(0, 0, 36);
