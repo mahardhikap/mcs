@@ -75,3 +75,18 @@ div.card {
     background-color: transparent;
     border-color: white;
 }
+
+div.ukuran-list{
+    border: 1px solid white;
+    max-height: 500px;
+    max-width: 1000px;
+    color: white;
+    overflow: scroll;
+}
+
+div.ukuran-max-offer {
+    max-height: 500px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 0px;
+}
