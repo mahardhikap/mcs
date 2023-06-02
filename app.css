@@ -26,19 +26,19 @@ html, body{
     color: white;
 }
 .whatsapp:hover {
-    color: rgb(0, 0, 36)
+    color: grey
 }
 .email {
     color: white;
 }
 .email:hover {
-    color: rgb(0, 0, 36)
+    color: grey
 }
 .lokasi {
     color: white;
 }
 .lokasi:hover {
-    color: rgb(0, 0, 36)
+    color: grey
 }
 .tombol a {
     color: white;
@@ -50,7 +50,7 @@ html, body{
 }
 .tombol a:hover {
     color: white;
-    background-color: rgb(0, 0, 36);
+    background-color: grey;
 }
 
 a.tombol {
@@ -64,7 +64,7 @@ a.tombol {
 
 a.tombol:hover{
     color: white;
-    background-color: rgb(0, 0, 36);
+    background-color: grey;
 }
 
 div.card {
@@ -100,5 +100,19 @@ div.ukuran-max-offer {
 
 .tombol2:hover{
     color: white;
-    background-color: rgb(0, 0, 36);
+    background-color: grey;
 }
+
+mark{
+    border-radius: 5px;
+    padding: 0px;
+    color: white;
+    font-weight: 500;
+    background-color: grey;
+}
+
+@media only screen and (max-width: 750px) {
+    .ukuran-font {
+      font-size: 15px;
+    }
+  }
