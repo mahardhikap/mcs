@@ -41,7 +41,7 @@ html, body{
     color: grey
 }
 .tombol a {
-    background-color: rgb(78, 78, 78);
+    background-color: grey;
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -51,11 +51,11 @@ html, body{
 }
 .tombol a:hover {
     color: white;
-    background-color: grey;
+    background-color: rgb(78, 78, 78);
 }
 
 a.tombol {
-    background-color: rgb(78, 78, 78);
+    background-color: grey;
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -66,7 +66,7 @@ a.tombol {
 
 a.tombol:hover{
     color: white;
-    background-color: grey;
+    background-color: rgb(78, 78, 78);
 }
 
 div.card {
@@ -92,7 +92,7 @@ div.ukuran-max-offer {
 }
 
 .tombol2 {
-    background-color: rgb(78, 78, 78);
+    background-color: grey;
     border-radius: 5px;
     padding: 10px;
     color: white;
@@ -103,7 +103,7 @@ div.ukuran-max-offer {
 
 .tombol2:hover{
     color: white;
-    background-color: grey;
+    background-color: rgb(78, 78, 78);
 }
 
 mark{
@@ -120,10 +120,10 @@ mark{
     }
   }
 
-.cs-desain{
+/* .cs-desain{
     background-color: grey;
-    /* border-radius: 5px; */
-}
+    border-radius: 5px;
+} */
 
 .social-desain{
     background-color: gray;
@@ -137,4 +137,8 @@ khusus {
     padding: 5px;
     border-radius: 5px;
     color: gray;
+}
+
+.ukuran-font{
+    font-size: 18px;
 }
