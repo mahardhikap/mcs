@@ -70,8 +70,8 @@ a.tombol:hover{
 }
 
 div.card {
-    background-color: rgb(78, 78, 78);
-    border-color: white;
+    background-color: transparent;
+    border-color: none;
 }
 
 div.ukuran-list{
