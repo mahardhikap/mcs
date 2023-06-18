@@ -375,8 +375,8 @@ footer i:hover{
 }
 
 @media only screen and (max-width: 576px){
-    html{height: 100%;}
-    body{height: auto;}
+    html{height: auto;}
+    body{height: auto; display: flex; justify-content: center; align-items: center;}
     .first-right{margin-top: 100px;}
     .first-left{margin-bottom: 100px;}
     .wrapper-content{width: 95%;}
