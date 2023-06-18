@@ -314,6 +314,7 @@ footer h1{
 }
 
 @media only screen and (max-width: 992px) {
+    .first-container{align-items: center;}
     .first-image{width: 300px;}
     .first-left h1{font-size: 40px;}
     .first-left p{font-size: 20px;}
@@ -331,6 +332,7 @@ footer h1{
     .first-right{order: 1; width: 100%;}
     .first-letter{width: 100%;}
     .first-left{order: 2; width: 100%; text-align: center; height: auto;}
+    .first-left a{box-sizing: border-box;}
     .second-title{width: 100%;}
     .second-title h1{font-size: 30px;}
     #third h1{font-size: 30px;}
@@ -344,7 +346,6 @@ footer h1{
 }
 
 @media only screen and (max-width: 576px){
-    .first-container{height: auto;}
     .first-container h1{font-size: 30px;}
     .first-image{width: 100px;}
     .first-left{align-items: center; height: auto;}
@@ -364,4 +365,8 @@ footer h1{
     .contact{width: 90%;}
     .social-item{flex-direction: row; width: 100%; height: auto; padding-top: 20px; padding-bottom: 20px;}
     .first-letter a{width: 100%;}
+}
+
+@media only screen and (min-width: 993px){
+    .first-container{align-items: center;}
 }
