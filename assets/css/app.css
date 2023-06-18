@@ -377,22 +377,23 @@ footer i:hover{
 @media only screen and (max-width: 576px){
     body{height: 900px;}
     /* .flex-content{display: flex; justify-content: center; align-items: center;} */
-    .first-right{margin-top: 100px;}
-    .first-left{margin-bottom: 100px;}
     .wrapper-content{width: 100%; height: 100%;}
     .nav-wrapper ul li a{padding: 10px;}
 
     #second{margin-top: 100px; margin-bottom: 100px;}
 
     .second-wrapper{gap: 10px;}
-    .services-card{height: 190px; width: 95%;}
-    .card-image i{font-size: 40px;}
-    .card-wrap span.services-caption{font-size: 20px; text-decoration: underline; margin-bottom: 10px; display: inline-block;}
-    .card-wrap p{font-size: 18px; margin: 0;}
-    .button-order a{width: 80%; text-align: center;}
+    .services-card{height: 190px; width: 95%; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    .card-image i{display:block ;font-size: 40px; text-align: center;}
+    #second .card-wrap span.services-caption{font-size: 20px; margin-bottom: 10px; display: block; text-align: center;}
+    .card-wrap p{font-size: 18px; margin: 0; text-align: center;}
+    .button-order a{width: 80%; text-align: center; margin-top: 20px;}
 
     .third-right{margin-bottom: 100px;}
     .third-left{margin-top: 100px;}
     .fourth-wrapper iframe{width: 310px; height:700px;}
     .fourth-wrapper{margin-top: 100px; margin-bottom: 100px;}
+
+    .part h2{font-weight: 900;}
+    .part p{font-weight: 600; font-size: 16px;}
 }
